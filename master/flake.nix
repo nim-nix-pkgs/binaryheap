@@ -11,7 +11,6 @@
   inputs.src-binaryheap-master.ref   = "refs/heads/master";
   inputs.src-binaryheap-master.owner = "bluenote10";
   inputs.src-binaryheap-master.repo  = "nim-heap";
-  inputs.src-binaryheap-master.dir   = "";
   inputs.src-binaryheap-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
